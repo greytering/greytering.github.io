@@ -8,6 +8,7 @@ header-img: img/my.jpg
 catalog: true
 tags:
     - ubuntu
+    - linux
 ---
 
 ## 首先
