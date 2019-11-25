@@ -12,34 +12,34 @@ tags:
 
 ## 首先
 
-$ sudo apt-get update
+    sudo apt-get update
 
-$ sudo apt-get full-upgrade
+    sudo apt-get full-upgrade
 
 
 ## 查看已安装的内核
 
-$ sudo dpkg -l | grep linux-image
+    sudo dpkg -l | grep linux-image
 
 ## 查看当前使用的内核
 
-$ sudo uname -r
+    sudo uname -r
 
 ## 查看可安装的内核
 
-$ sudo apt-cache search linux-image
+    sudo apt-cache search linux-image
 
 ## 安装新内核
 
-$ sudo apt-get install linux-image-$(uname -r)-generic
+    sudo apt-get install linux-image-$(uname -r)-generic
 
 ## 卸载不需要的内核 (一般无需卸载)
 
-$ sudo apt-get purge linux-image-xxx-generic
+    sudo apt-get purge linux-image-xxx-generic
 
 ## 更新 grub
 
-$ sudo apt update-grub
+    sudo update-grub
 
 
 
