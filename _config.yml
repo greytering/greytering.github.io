@@ -5,7 +5,7 @@ header-img: img/my.jpg
 email: greytering@gmail.com
 description: "Every failure is leading towards success."
 keyword: "Frog, Frog Blog,"
-url: "http://greytering.github.io"          # your host, for absolute URL
+url: "https://greytering.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/greytering/greytering.github.io.git" # you code repository
 
@@ -62,8 +62,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 7338d9ebc1cf0c9b1eae                           #生成的clientID
-  clientSecret: 37d9577f9c36a2409c4472dadc49d353c35815bb    #生成的clientSecret
+  clientID: 06bca8febd5725a503d2                           #生成的clientID
+  clientSecret: 5bde06238144f60df8e520d9763fb9894caf455b    #生成的clientSecret
   repo: greytering.github.io    #仓库名称
   owner: greytering    #github用户名
   admin: greytering
@@ -99,8 +99,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "MY",
-        href: "http://47.240.48.208:6080"
+        title: "Frog",
+        href: "http://xfrog.xyz"
     },{
         title: "Apple",
         href: "https://apple.com"
